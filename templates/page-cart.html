@@ -1,8 +1,11 @@
 <!-- wp:template-part {"slug":"header","tagName":"header","theme":"ts0001"} /-->
 
-<!-- wp:group {"tagName":"main","layout":{"type":"constrained"}} -->
+<!-- wp:group {"tagName":"main","style":{"spacing":{"padding":{"top":"var:preset|spacing|large","bottom":"var:preset|spacing|large"}}},"layout":{"type":"constrained"}} -->
 <main class="wp-block-group">
-	<!-- wp:woocommerce/cart /-->
+	<!-- wp:woocommerce/store-notices /-->
+	<!-- wp:woocommerce/breadcrumbs {"fontSize":"small"} /-->
+	<!-- wp:post-title {"level":1} /-->
+	<!-- wp:woocommerce/classic-shortcode {"shortcode":"cart"} /-->
 </main>
 <!-- /wp:group -->
 

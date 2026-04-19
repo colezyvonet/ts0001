@@ -2,7 +2,7 @@
 /**
  * Title: WooCommerce Order Confirmation
  * Slug: ts0001/woo-order-confirmation
- * Description: Order confirmation page layout.
+ * Description: Order confirmation page using classic shortcode renderer.
  * Categories: ts0001/woo
  * Keywords: order, confirmation, woocommerce
  * Template Types: order-confirmation
@@ -17,8 +17,8 @@
 <!-- wp:group {"tagName":"main","style":{"spacing":{"padding":{"top":"var:preset|spacing|large","bottom":"var:preset|spacing|large"}}},"layout":{"type":"constrained"}} -->
 <main class="wp-block-group">
 	<!-- wp:woocommerce/store-notices /-->
-	<!-- wp:post-title /-->
-	<!-- wp:woocommerce/order-confirmation /-->
+	<!-- wp:post-title {"level":1} /-->
+	<!-- wp:woocommerce/classic-shortcode {"shortcode":"order_review"} /-->
 </main>
 <!-- /wp:group -->
 
