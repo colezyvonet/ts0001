@@ -1,9 +1,6 @@
 <?php
 /**
- * There is nothing output here because block themes do not use php templates.
+ * Block themes do not use PHP templates. This file is required by WordPress.
  *
- * @package ollie
- *
- * There is a core ticket discussing removing this requirement for block themes:
- * https://core.trac.wordpress.org/ticket/54272.
+ * @package ts0001
  */
